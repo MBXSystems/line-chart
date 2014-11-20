@@ -1,6 +1,6 @@
 
 /*
-line-chart - v1.1.4 - 10 November 2014
+line-chart - v1.1.4 - 20 November 2014
 https://github.com/n3-charts/line-chart
 Copyright (c) 2014 n3-charts
  */
@@ -471,8 +471,8 @@ mod.factory('n3utils', [
           'class': function(d, i) {
             return "legendText series_" + i;
           },
-          'font-family': 'Courier',
-          'font-size': 10,
+          'font-family': 'Helvetica Neue", Helvetica, Arial, sans-serif',
+          'font-size': 12,
           'transform': 'translate(13, 4)',
           'text-rendering': 'geometric-precision'
         }).text(function(s) {
@@ -1111,7 +1111,7 @@ mod.factory('n3utils', [
         y2Axis = this.createAxis(y2, 'y2', axesOptions);
         style = function(group) {
           group.style({
-            'font': '10px Courier',
+            'font': '10px Helvetica Neue", Helvetica, Arial, sans-serif',
             'shape-rendering': 'crispEdges'
           });
           return group.selectAll('path').style({

@@ -104,8 +104,8 @@
         item.append('text')
           .attr(
             'class': (d, i) -> "legendText series_#{i}"
-            'font-family': 'Courier'
-            'font-size': 10
+            'font-family': 'Helvetica Neue", Helvetica, Arial, sans-serif'
+            'font-size': 12
             'transform': 'translate(13, 4)'
             'text-rendering': 'geometric-precision'
           )

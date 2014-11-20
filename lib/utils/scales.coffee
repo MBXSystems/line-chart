@@ -35,7 +35,7 @@
 
         style = (group) ->
           group.style(
-            'font': '10px Courier'
+            'font': '10px Helvetica Neue", Helvetica, Arial, sans-serif'
             'shape-rendering': 'crispEdges'
           )
 
