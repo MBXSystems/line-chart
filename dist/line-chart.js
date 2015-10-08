@@ -1,8 +1,8 @@
 
 /*
-line-chart - v1.1.4 - 20 November 2014
+line-chart - v1.1.4 - 08 October 2015
 https://github.com/n3-charts/line-chart
-Copyright (c) 2014 n3-charts
+Copyright (c) 2015 n3-charts
  */
 var directive, m, mod, old_m,
   __indexOf = [].indexOf || function(item) { for (var i = 0, l = this.length; i < l; i++) { if (i in this && this[i] === item) return i; } return -1; };
@@ -472,7 +472,7 @@ mod.factory('n3utils', [
             return "legendText series_" + i;
           },
           'font-family': 'Helvetica Neue", Helvetica, Arial, sans-serif',
-          'font-size': 12,
+          'font-size': 10,
           'transform': 'translate(13, 4)',
           'text-rendering': 'geometric-precision'
         }).text(function(s) {
