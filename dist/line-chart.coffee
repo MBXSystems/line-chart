@@ -17,7 +17,7 @@ directive('linechart', ['n3utils', '$window', '$timeout', (n3utils, $window, $ti
     dim = _u.getDefaultMargins()
 
     # Hacky hack so the chart doesn't grow in height when resizing...
-    element[0].style['font-size'] = 0
+    #element[0].style['font-size'] = 0
 
     scope.updateDimensions = (dimensions) ->
       parent = element[0].parentElement

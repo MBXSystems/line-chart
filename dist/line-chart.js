@@ -23,7 +23,6 @@ directive('linechart', [
       var dim, initialHandlers, isUpdatingOptions, promise, window_resize, _u;
       _u = n3utils;
       dim = _u.getDefaultMargins();
-      element[0].style['font-size'] = 0;
       scope.updateDimensions = function(dimensions) {
         var bottom, left, parent, right, top;
         parent = element[0].parentElement;
